@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, View, Image, Text } from "react-native";
+import { StyleSheet, View, Image, Text, ScrollView } from "react-native";
 import ItemHeader from "../components/ItemHeader";
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import QueryButton from "../components/QueryButton";
@@ -7,6 +7,7 @@ import QueryButton from "../components/QueryButton";
 function HomeScreen({navigation, props }) {
   return (
     <View style={styles.container}>
+      
       <View style={styles.itemHeaderStack}>
         <ItemHeader style={styles.itemHeader}></ItemHeader>
         <Image
@@ -132,7 +133,7 @@ const styles = StyleSheet.create({
   icon5: {
     color: "rgba(96,149,19,1)",
     fontSize: 24,
-    marginLeft: 62
+    marginLeft: 52
   },
   dob: {
     color: "rgba(96,149,19,1)",
@@ -144,7 +145,7 @@ const styles = StyleSheet.create({
     height: 39,
     flexDirection: "row",
     marginTop: 34,
-    marginLeft: 20,
+    marginLeft: 16,
     marginRight: 62
   },
   icon1: {
@@ -159,7 +160,7 @@ const styles = StyleSheet.create({
   icon6: {
     color: "rgba(96,149,19,1)",
     fontSize: 24,
-    marginLeft: 95
+    marginLeft: 78
   },
   loremIpsum3: {
     color: "rgba(96,149,19,1)",
@@ -184,7 +185,7 @@ const styles = StyleSheet.create({
   icon7: {
     color: "rgba(96,149,19,1)",
     fontSize: 24,
-    marginLeft: 57
+    marginLeft: 40
   },
   community: {
     color: "rgba(96,149,19,1)",
@@ -210,7 +211,7 @@ const styles = StyleSheet.create({
   icon8: {
     color: "rgba(96,149,19,1)",
     fontSize: 24,
-    marginLeft: 84
+    marginLeft: 64
   },
   bus: {
     color: "rgba(96,149,19,1)",
@@ -237,7 +238,7 @@ const styles = StyleSheet.create({
   icon9: {
     color: "rgba(96,149,19,1)",
     fontSize: 24,
-    marginLeft: 119
+    marginLeft: 104
   },
   publictoilet: {
     color: "rgba(96,149,19,1)",
@@ -269,7 +270,7 @@ const styles = StyleSheet.create({
   icon11: {
     color: "rgba(96,149,19,1)",
     fontSize: 24,
-    marginLeft: 27
+    marginLeft: 24
   },
   park: {
     color: "rgba(96,149,19,1)",
